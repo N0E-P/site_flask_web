@@ -11,3 +11,11 @@ pip install flask
 . ./env/bin/activate
 
 python3 -m flask --app app.py run
+
+# Idées à la con :
+
+section pièges
+
+tutoriels pour attrapper ses premiers proies
+
+comment entretenir son lynx
