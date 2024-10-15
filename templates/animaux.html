@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<h1>Vos animaux en voie de disparition vous attendent:</h1>
+	<ul>
+		{% for animal in animaux %}
+		<li>
+			<a href="/animaux/{{animal.id}}"><h2>{{animal.name}} - {{animal.price}}€</h2></a>
+			{% if animal.in_stock %}
+			<p>{{animal.in_stock}} en stock</p>
+			{% else %}
+			<p>Rupture de stock</p>
+			{% endif %}
+		</li>
+		<img src="static/images/{{animal.id}}.jpg" alt="{{animal.name}}" width="400" />
+		{% endfor %}
+	</ul>
+</html>
