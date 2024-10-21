@@ -20,8 +20,14 @@ tutoriels pour attrapper ses premiers proies
 
 comment entretenir son lynx
 
-# trucs à faire :
-
 un panier
-css
+
 images animaux
+
+DB?
+
+api
+
+cookies
+
+authentification
