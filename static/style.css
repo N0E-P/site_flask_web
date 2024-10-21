@@ -1,0 +1,43 @@
+/* Create a nice css file */
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+}
+
+nav {
+	background-color: #444;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px 0;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}

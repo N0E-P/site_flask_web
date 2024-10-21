@@ -1,9 +1,18 @@
-<form action="/animaux/{{code}}/achat/" method="post">
-	<label for="name">Nom&nbsp;:</label>
-	<input type="text" id="name" name="name" />
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A'chat Sauvage</title>
+		<link rel="stylesheet" href="../../../static/style.css" />
+	</head>
+	<body>
+		<form action="/animaux/{{code}}/achat/" method="post">
+			<label for="name">Nom&nbsp;:</label>
+			<input type="text" id="name" name="name" />
 
-	<label for="livraison">Livraison&nbsp;:</label>
-	<textarea id="livraison" name="livraison"></textarea>
+			<label for="livraison">Livraison&nbsp;:</label>
+			<textarea id="livraison" name="livraison"></textarea>
 
-	<button type="submit">Acheter</button>
-</form>
+			<button type="submit">Acheter</button>
+		</form>
+	</body>
+</html>

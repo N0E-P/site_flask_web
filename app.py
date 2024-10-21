@@ -43,3 +43,4 @@ def achat(code):
             json.dump(animaux_data, f)
 
         return render_template("bravo.html", nom=form["name"] , livraison=form["livraison"], animal=animal)
+    

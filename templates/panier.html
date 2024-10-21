@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A'chat Sauvage</title>
+		<link rel="stylesheet" href="../static/style.css" />
+	</head>
+	<body>
+		<h1>Votre panier:</h1>
+		<ul>
+			{% for animal in panier %}
+			<li>
+				<a href="/animaux/{{animal.id}}"><h2>{{animal.name}} - {{animal.price}}€</h2></a>
+				<p>Quantité: {{animal.quantity}}</p>
+			</li>
+			<img src="../static/images/{{animal.id}}.jpg" alt="{{animal.name}}" width="400" />
+			{% endfor %}
+		</ul>
+		<p>Total: {{ total }}€</p>
+		<a href="/panier/achat/">Acheter</a>
+	</body>
+</html>
