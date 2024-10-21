@@ -38,7 +38,7 @@ def achat(code):
         animal = animaux_data[int(code)]
 
         #Ecrire que le vélo n'est plus disponible dans le fichier json
-        animaux_data[int(code)-1]["in_stock"] = animaux_data[int(code)]["in_stock"] - 1
+        animaux_data[int(code)]["in_stock"] = animaux_data[int(code)]["in_stock"] - 1
         with open("animaux.json", "w") as f:
             json.dump(animaux_data, f)
 
